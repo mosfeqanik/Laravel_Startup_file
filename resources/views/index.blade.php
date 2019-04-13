@@ -3,7 +3,7 @@
 @section('title','Homepage || laravel')
 
 @section('content')
-
+    @include('errors.error')
     <!-- Page Content -->
     <div class="container">
 
